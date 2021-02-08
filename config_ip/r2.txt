@@ -1,0 +1,6 @@
+int g0/1
+ip address 172.31.174.18 255.255.255.240
+no shutdown
+int g0/2
+ip address 172.31.174.49 255.255.255.240
+no shutdown

@@ -1,0 +1,10 @@
+int g0/1
+ip add 172.31.174.34 255.255.255.240
+no shutdown
+ing g0/2
+ip add 172.31.174.50 255.255.255.240
+no shutdown
+int g0/3
+ip add 172.31.174.65 255.255.255.240
+no shutdown
+
