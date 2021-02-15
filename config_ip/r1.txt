@@ -4,3 +4,8 @@ no shutdown
 int g0/2
 ip address 172.31.174.33 255.255.255.240
 no shutdown
+exit
+router ospf 1
+network 172.31.174.16 0.0.0.15 area 0
+network 172.31.174.32 0.0.0.15 area 0
+network 172.20.174.4 0.0.0.0 area 0

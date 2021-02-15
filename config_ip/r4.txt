@@ -1,3 +1,7 @@
 int g0/1
 ip add 172.31.174.66 255.255.255.240
 no shutdown
+exit
+router ospf 1
+network 172.31.174.64 0.0.0.15 area 0
+network 172.20.174.7 0.0.0.0 area 0

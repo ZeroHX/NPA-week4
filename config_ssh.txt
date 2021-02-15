@@ -1,0 +1,5 @@
+ip access-list extend 101
+permit tcp 172.31.174.0 0.0.0.15 any
+permit tcp 10.253.190.0 0.0.0.255 any
+line vty 0 4
+access-class 101 in
