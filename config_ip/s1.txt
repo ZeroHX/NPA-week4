@@ -1,0 +1,6 @@
+int loopback 0
+ip address 172.20.174.3 255.255.255.255
+no shutdown
+exit
+cdp run
+lldp run

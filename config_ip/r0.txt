@@ -1,0 +1,12 @@
+int loopback 0
+ip address 172.20.174.1 255.255.255.255
+no shutdown
+int g0/0
+ip address 172.31.174.1 255.255.255.240
+no shutdown
+int g0/1
+ip address 10.0.15.174 255.255.255.0
+no shutdown
+exit
+cdp run
+lldp run
